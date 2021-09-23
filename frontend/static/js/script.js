@@ -12,8 +12,8 @@ $(document).ready(function () {
 	// $("#userInput").prop('disabled', true);
 
 	//global variables
-	action_name = "utter_greet";
-	user_id = "user";
+	action_name = "action_greet_user";
+	user_id = "jitesh97";
 
 	//if you want the bot to start the conversation
 	// action_trigger();
