@@ -1,4 +1,4 @@
-version: "2.0"
+version: '2.0'
 
 intents:
   - greet
@@ -22,9 +22,9 @@ responses:
   utter_happy:
   - text: "Great, carry on!"
 
- utter_goodbye:
- - text: "Have a nice day"
-   custom:
+  utter_goodbye:
+  - text: "Have a nice day"
+    custom:
      end_of_conversation: true
 
   utter_iamabot:
@@ -32,6 +32,9 @@ responses:
 
   utter_start:
   - text: "Hello, how can I help you?"
+
+  utter_please_rephrase:
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 
 session_config:
   session_expiration_time: 60
